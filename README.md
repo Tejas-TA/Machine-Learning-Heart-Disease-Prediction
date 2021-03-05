@@ -40,6 +40,6 @@ Heart Disease app predicts whether a person has a heart condition or not <br><hr
 10. App running successfully - http://ec2-3-129-176-183.us-east-2.compute.amazonaws.com:8080/ <br>
 11. Deployed the same application on Heroku Cloud - https://predicting-heart-disease.herokuapp.com/ <hr>
 
-<br><b>Check out my Machine Learning|Deep Learning blogs at https://tejasta.medium.com/ </b><br>
+<b>Check out my Machine Learning|Deep Learning blogs at https://tejasta.medium.com/ </b><br>
 LinkedIn - https://www.linkedin.com/in/tejas-ta/ <br>
 Email - tejasta@gmail.com <hr>
