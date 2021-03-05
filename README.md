@@ -6,9 +6,9 @@
 
 Heart Disease app predicts whether a person has a heart condition or not <br>
 
-<h3>Dataset</h3><br> https://www.kaggle.com/ronitf/heart-disease-uci <br>
+<h3>Dataset</h3> https://www.kaggle.com/ronitf/heart-disease-uci <br>
 
-<h3>Libraries Used</h3><br>
+<h3>Libraries Used</h3>
 1. Flask<br>
 2. gunicorn<br>
 3. itsdangerous<br>
@@ -27,7 +27,7 @@ Heart Disease app predicts whether a person has a heart condition or not <br>
 16. Bootstrap<br>
 17. JavaScript<br><br>
 
-<h3>Project Walkthrough</h3><br>
+<h3>Project Walkthrough</h3>
 1. Exploratory Data Analysis(EDA)<br>
 2. Data Visualization<br>
 3. Feature Engineering<br>
