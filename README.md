@@ -6,9 +6,9 @@
 
 Heart Disease app predicts whether a person has a heart condition or not <br>
 
-<b>Dataset</b> https://www.kaggle.com/ronitf/heart-disease-uci <br>
+<h3>Dataset</h3><br> https://www.kaggle.com/ronitf/heart-disease-uci <br>
 
-<b>Libraries Used</b><br>
+<h3>Libraries Used</h3><br>
 1. Flask<br>
 2. gunicorn<br>
 3. itsdangerous<br>
@@ -27,7 +27,7 @@ Heart Disease app predicts whether a person has a heart condition or not <br>
 16. Bootstrap<br>
 17. JavaScript<br><br>
 
-<b>Project Walkthrough</b><br>
+<h3>Project Walkthrough</h3><br>
 1. Exploratory Data Analysis(EDA)<br>
 2. Data Visualization<br>
 3. Feature Engineering<br>
@@ -35,11 +35,11 @@ Heart Disease app predicts whether a person has a heart condition or not <br>
 5. Trained Machine Learning algorithms<br>
 6. Predicted models on test dataset<br>
 7. Model Evaluation<br>
-8. Saved the model<br>
+8. Exported the model<br>
 9. Created an EC2 instance on AWS running Ubuntu AMI and moved all the code to AWS cloud server<br>
 10. App running successfully - http://ec2-3-129-176-183.us-east-2.compute.amazonaws.com:8080/ <br>
-11. Deployed the same application on Heroku Cloud
+11. Deployed the same application on Heroku Cloud - https://predicting-heart-disease.herokuapp.com/
 
-<br><br><br>Check out my Machine Learning|Deep Learning blogs at https://tejasta.medium.com/ <br>
+<br><b>Check out my Machine Learning|Deep Learning blogs at https://tejasta.medium.com/ </b><br>
 LinkedIn - https://www.linkedin.com/in/tejas-ta/ <br>
 Email - tejasta@gmail.com
