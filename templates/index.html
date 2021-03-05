@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Heart Disease Prediction</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="static/images/icons/heart-icon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+
+<style>
+::-webkit-input-placeholder {
+  color: red;
+}
+
+:-ms-input-placeholder { 
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+<!--------------------------------------->
+a:link {
+  color: magenta;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
+
+.bg-contact3{
+  background-color: black;
+  color: black;
+}
+<!--------------------------------------->
+.contact3-form-title{
+color:black;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-variant: normal;
+}
+<!--------------------------------------->
+
+</style>
+</head>
+<body>
+	<div class="bg-contact3" style="background-image: url('static/images/ecg.jpg');">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form action="{{ url_for('predict')}}" method="post" class="contact3-form validate-form">
+					<span class="contact3-form-title">
+						AI Heart Disease Prediction<br>
+						<p>By : Tejas T A</p>
+						<p>Email - tejasta@gmail.com</p>
+						<a href="https://www.linkedin.com/in/tejasta/">LinkedIn - Click here</a><br>
+					</span>
+				
+						<div class="form-group">
+							<label for="cp">Type of Chest Pain</label>
+							<select class="form-control" id="cp" name = "cp" required="required" placeholder="Chest pain type">
+								<option value="1">Typical Angina</option>
+								<option value="2">Atypical Angina</option>
+								<option value="3">Non-Anginal Pain</option>
+								<option value="4">Asymptomatic</option>
+							</select>
+						</div>
+						
+						<div class="form-group">
+						<!-- TODO : Year to accept only year date picker -->
+							<label for="trestbps">Resting Blood Pressure (in mm Hg)</label>
+							<input class="form-control" type="number" id="trestbps" name="trestbps" required="required" placeholder="Resting Blood Pressure">
+						</div>
+
+						<div class="form-group">
+							<label for="chol">Serum Cholesterol in mg/dl</label>
+							<input class="form-control" type="number" step="any" id="chol" name="chol" required="required" placeholder="Serum Cholesterol">
+						</div>
+
+						<div class="form-group">
+							<label for="fbs">Fasting Blood Sugar</label>
+							<select class="form-control" id="fbs" name = "fbs" required="required" placeholder="Fasting Blood Sugar">
+								<option value="0">Fasting Blood Sugar < 120 mg/dl</option>
+								<option value="1">Fasting Blood Sugar > 120 mg/dl</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="restecg">Resting Electro-Cardiographic Result</label>
+							<select class="form-control" type="number" id="restecg" name="restecg" required="required" placeholder="Resting Electro-Cardiographic Result">
+								<option value="0">Normal</option>
+								<option value="1">Having ST-T wave abnormality</option>
+								<option value="2">Showing probable or definite left ventricular hypertrophy</option>
+							</select>
+						</div>
+              
+						<div class="form-group">
+							<label for="thalach">Maximum Heart Rate Achieved</label>
+							<input class="form-control" id="thalach" name = "thalach" required="required" >
+						</div>
+
+						<div class="form-group">
+							<label for="exang">Exercise Induced Angina</label>
+							<select class="form-control" id="exang" name = "exang" required="required" >
+								<option value="1">Yes</option>
+								<option value="0">No</option>
+							</select>
+						</div>	
+						
+						<div class="container-contact3-form-btn">
+							<button type="submit" class="contact3-form-btn">
+								Predict
+							</button>
+						</div>
+					</form>
+					
+			</div>
+		</div>
+	</div>	
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-23581568-13');
+</script>
+</body>
+</html>
