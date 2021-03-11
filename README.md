@@ -4,7 +4,7 @@
 
 <img src="https://github.com/Tejas-TA/ML-Heart-Disease-Prediction/blob/main/Heart%20GIF.gif" width = "100%" height="100%">
 
-<h2>Heart Disease app predicts whether a person has a heart condition or not</h2>
+<h2>Heart Disease app predicts whether a person has a heart condition or not based on Sex, Age, Resting blood pressure, Cholestrol etc</h2>
 
 <h3>Dataset</h3> https://www.kaggle.com/ronitf/heart-disease-uci <br><hr>
 
