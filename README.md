@@ -1,4 +1,4 @@
-# ML Heart Disease Prediction
+# Machine Learning Heart Disease Prediction
 <b>AWS</b> - http://ec2-3-129-176-183.us-east-2.compute.amazonaws.com:8080/ <br>
 <b>Heroku</b> - https://predicting-heart-disease.herokuapp.com/ <br>
 
