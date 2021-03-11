@@ -29,7 +29,7 @@
 
 <h3>Project Walkthrough</h3>
 1. Exploratory Data Analysis(EDA)<br>
-2. Data Visualization<br>
+2. Data Visualization and Cleaning<br>
 3. Feature Engineering<br>
 4. Feature Selection and Scaling<br>
 5. Trained Machine Learning algorithms<br>
