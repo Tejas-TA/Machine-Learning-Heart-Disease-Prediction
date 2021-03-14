@@ -37,11 +37,15 @@
 7. Model Evaluation<br>
 8. Exported the model<br>
 9. Created an EC2 instance in AWS running Ubuntu AMI and moved all the code to AWS cloud server<br>
-10. App running successfully in AWS and Heroku
-11. Accuracies and Confusion matrices
-![image](https://user-images.githubusercontent.com/13360641/111072795-290bcc80-8502-11eb-8074-d72eab648850.png) <br>
+10. App running successfully in AWS and Heroku<br>
+11. Accuracies and Confusion matrices<br>
 
 
+![image](https://user-images.githubusercontent.com/13360641/111072795-290bcc80-8502-11eb-8074-d72eab648850.png)
+
+![image](https://user-images.githubusercontent.com/13360641/111072851-6b350e00-8502-11eb-85f7-215d9acc71d5.png)
+
+<hr>
 
 Blogs - https://tejasta.medium.com/ <br>
 LinkedIn - https://www.linkedin.com/in/tejas-ta/ <br>
